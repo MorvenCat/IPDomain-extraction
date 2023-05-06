@@ -12,6 +12,8 @@ print("| \  / | ___  _ ____   _____ _ __ | |     __ _| |_ ")
 print("| |\/| |/ _ \| '__\ \ / / _ \ '_ \| |    / _` | __|")
 print("| |  | | (_) | |   \ V /  __/ | | | |___| (_| | |_ ")
 print("|_|  |_|\___/|_|    \_/ \___|_| |_|\_____\__,_|\__|")
+print("Link:https://github.com/MorvenCat/IPDomain-extraction")
+
 
 def extract_text(file_path):
     _, extension = os.path.splitext(file_path)
@@ -25,6 +27,7 @@ def extract_text(file_path):
         text = df.to_string(index=False)
     else:
         sys.exit("不支持这种格式捏~")
+    text = text.replace('。', '.')
     return text
 
 
