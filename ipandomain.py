@@ -50,8 +50,6 @@ def extract_ip_and_domain(text, extract_ip=True, extract_domain=True):
     else:
         domains = []
 
-    # 从当前路径下读取blacklist.txt文件，过滤掉ips和domain中在blacklist.txt出现的项，如果不存在blacklist.txt或blacklist.txt为空则不过滤
-    # 如果blacklist.txt不存在或为空打印语句”过滤名单为空，输出所有内容“，反之打印“已加载过滤名单”
     blacklist_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "blacklist.txt")
     if os.path.exists(blacklist_path):
         with open(blacklist_path, "r", encoding="utf-8") as f:
