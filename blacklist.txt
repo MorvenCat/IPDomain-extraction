@@ -17,5 +17,13 @@
 172.30.
 172.31.
 192.168.
+.html
+.htm
+.shtml
+.php
+.jsp
+.aspx
+.asp
+.apk
 gov
 edu

@@ -5,13 +5,17 @@ import sys
 import docx2txt
 import pandas as pd
 
-print(" __  __                             _____      _   ")
-print("|  \/  |                           / ____|    | |  ")
-print("| \  / | ___  _ ____   _____ _ __ | |     __ _| |_ ")
-print("| |\/| |/ _ \| '__\ \ / / _ \ '_ \| |    / _` | __|")
-print("| |  | | (_) | |   \ V /  __/ | | | |___| (_| | |_ ")
-print("|_|  |_|\___/|_|    \_/ \___|_| |_|\_____\__,_|\__|")
-print("Link:https://github.com/MorvenCat/IPDomain-extraction")
+mca = """
+ __  __                             _____      _   
+|  \/  |                           / ____|    | |  
+| \  / | ___  _ ____   _____ _ __ | |     __ _| |_ 
+| |\/| |/ _ \| '__\ \ / / _ \ '_ \| |    / _` | __|
+| |  | | (_) | |   \ V /  __/ | | | |___| (_| | |_ 
+|_|  |_|\___/|_|    \_/ \___|_| |_|\_____\__,_|\__|
+Link:https://github.com/MorvenCat/IPDomain-extraction
+"""
+
+print(mca)
 
 
 # 读取文件中的文本
