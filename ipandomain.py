@@ -14,7 +14,6 @@ mca = """
 |_|  |_|\___/|_|    \_/ \___|_| |_|\_____\__,_|\__|
 Link:https://github.com/MorvenCat/IPDomain-extraction
 """
-
 print(mca)
 
 
